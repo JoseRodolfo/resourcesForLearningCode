@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <section  class="subject">
+      <h2 onclick="myFunction('intro')" class="title-toggle"> Introduction </h2>
+      <p id="intro"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laborum eligendi, nulla aliquid perspiciatis tempore cumque odit sapiente ut, reiciendis accusantium sint dolor. Ipsum eaque, quos esse incidunt, quod veniam sequi sint, voluptatem
+        at quis impedit amet illum cupiditate explicabo! </p>
+    </section>
+    <section class="subject">
+    <h2 onclick="myFunction('docs')" class="title-toggle"> Documentation </h2>
+      <p id="docs"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laborum eligendi, nulla aliquid perspiciatis tempore cumque odit sapiente ut, reiciendis accusantium sint dolor. Ipsum eaque, quos esse incidunt, quod veniam sequi sint, voluptatem
+        at quis impedit amet illum cupiditate explicabo! </p>
+    </section>
+    <section class="subject">
+      <h2 onclick="myFunction('vids')" class="title-toggle"> Video Tutorials, YouTube Etc </h2>
+      <p id="vids"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laborum eligendi, nulla aliquid perspiciatis tempore cumque odit sapiente ut, reiciendis accusantium sint dolor. Ipsum eaque, quos esse incidunt, quod veniam sequi sint, voluptatem
+        at quis impedit amet illum cupiditate explicabo! </p>
+    </section>
+    <section class="subject">
+      <h2 onclick="myFunction('tips')" class="title-toggle"> Tips </h2>
+      <p id="tips"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laborum eligendi, nulla aliquid perspiciatis tempore cumque odit sapiente ut, reiciendis accusantium sint dolor. Ipsum eaque, quos esse incidunt, quod veniam sequi sint, voluptatem
+        at quis impedit amet illum cupiditate explicabo! </p>
+    </section>
+  </div>
+
+  <script type="text/javascript">
+  function myFunction(id) {
+  var x = document.getElementById(id)
+  if (x.style.display === 'none'){
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none'
+  }
+}
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
